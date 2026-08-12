@@ -1,17 +1,6 @@
-package arrays;
-
-
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * LeetCode 242 - Valid Anagram
- * https://leetcode.com/problems/valid-anagram/
- *
- * Approach: Character frequency count (fixed-size array)
- * Time: O(n)
- * Space: O(1) — bounded by 26 lowercase letters
- */
 
 public class ContainsDuplicate {
     public static boolean containsDuplicate(int[] nums) {
